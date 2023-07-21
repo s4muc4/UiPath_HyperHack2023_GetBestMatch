@@ -1,0 +1,59 @@
+{
+  "name": "Get_Best_Match",
+  "projectId": "ba5c5b92-f5fc-4544-815b-fd94d0adcd61",
+  "description": "Get Best DataRow Match for a given address",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "1.7.1",
+    "UiPath.Excel.Activities": "2.21.0-preview",
+    "UiPath.System.Activities": "23.6.0-preview",
+    "UiPath.Testing.Activities": "23.6.0-preview",
+    "UiPath.UIAutomation.Activities": "23.6.1-preview",
+    "UiPath.WebAPI.Activities": "1.16.2"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": [
+        "Get_Distance_With_GoogleAPI.xaml"
+      ]
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/best-match-icon.png"
+  },
+  "targetFramework": "Windows"
+}
